@@ -6,4 +6,8 @@ public:
 mahasiswa(); //Construktor mahasiswa
 };
 
+mahasiswa::mahasiswa(){
+cout<<"Construktor Terpanggil"<<endl; //Definisi Construktor
+};
+
 
