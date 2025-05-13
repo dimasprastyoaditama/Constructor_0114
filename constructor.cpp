@@ -10,4 +10,7 @@ mahasiswa::mahasiswa(){
 cout<<"Construktor Terpanggil"<<endl; //Definisi Construktor
 };
 
-
+int main(){
+mahasiswa mhs; //Pembuatan Object
+return 0;
+}

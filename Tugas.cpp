@@ -21,11 +21,19 @@ class BangunDatar{
             return 2 * (panjang * lebar);
         };
     public:
-        //untuk mengakses panjang dan lebar
+         public: 
+        // untuk mengakses panjang dan lebar
         friend void PersegiPanjang::inputData(BangunDatar &bd);
-        //untuk mengakses fungsi
-        friend void PersegiPanjang::outputData(BangunDatar &bd);      
+        // untuk mengakses fungsi
+        friend void PersegiPanjang::outputData(BangunDatar &bd);       
 };
+
+void PersegiPanjang::inputData(BangunDatar &bd){
+    cout << "Masukkan Panjang :";
+    cin >> bd.panjang;
+    cout << "Masukkan Lebar : ";
+    cin >> bd.Lebar;
+}
 
 
    
