@@ -20,7 +20,12 @@ class BangunDatar{
         float hitungKeliling(){
             return 2 * (panjang * lebar);
         };
-}
+    public:
+        //untuk mengakses panjang dan lebar
+        friend void PersegiPanjang::inputData(BangunDatar &bd);
+        //untuk mengakses fungsi
+        friend void PersegiPanjang::outputData(BangunDatar &bd);      
+};
 
 
    
