@@ -16,10 +16,11 @@ class barang {
         namaBarang = nama;
         kodeBarang = kode;
     }
-    void barang:: cetak() {
+    void cetak() {
         cout << "Nama Barang: " << namaBarang << endl;
         cout << "Kode Barang: " << kodeBarang << endl;
     }
+};
     int main (){
         barang brg1 ("buku", 20000); //nama barang dan kode barang
         barang brg2 ("pulpen", 15000); //nama barang dan kode
@@ -31,5 +32,3 @@ class barang {
 
         return 0;
     }
-
-};
